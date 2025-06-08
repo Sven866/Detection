@@ -1,0 +1,29 @@
+# 训练和数据设置
+path: data/oxford-iiit-pet/yolo
+train: data/oxford-iiit-pet/yolo/images/train
+val: data/oxford-iiit-pet/yolo/images/val
+test: data/oxford-iiit-pet/yolo/images/val  # 使用验证集作为测试集
+
+# 类别数量和名称
+nc: 2  # 类别数量
+names: ['cat', 'dog']  # 类别名称
+
+# 训练参数
+epochs: 100
+batch_size: 16
+img_size: 640
+workers: 4
+
+# 优化器参数
+lr0: 0.01
+lrf: 0.01
+momentum: 0.937
+weight_decay: 0.0005
+
+# 输出设置
+project: 'pet-detection'
+name: 'pet-head-detection-exp'
+
+# 评估参数
+iou_thres: 0.7  # IoU阈值
+conf_thres: 0.25  # 置信度阈值 

@@ -1,0 +1,8 @@
+names:
+- cat
+- dog
+nc: 2
+path: C:\Users\19106\Desktop\Detection
+test: C:\Users\19106\Desktop\Detection\data/oxford-iiit-pet/yolo/images/val
+train: C:\Users\19106\Desktop\Detection\data/oxford-iiit-pet/yolo/images/train
+val: C:\Users\19106\Desktop\Detection\data/oxford-iiit-pet/yolo/images/val
